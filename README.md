@@ -16,24 +16,16 @@ Because PlayerProtect should only be applied as a temporary solution, the protec
  -   `playerprotect.*`
  -   Access to everything
 
-
- -   `playerprotect.add`
- -   `/playerprotect <player>`
+ -   `playerprotect.add` /playerprotect <player>
  -   Add players to protection list
 
-
- -   `playerprotect.remove`
- -   `/playerprotect remove <player>`
+ -   `playerprotect.remove` /playerprotect remove <player>
  -   Remove players from protection list
 
-
- -   `playerprotect.reset`
- -   `/playerprotect reset`
+ -   `playerprotect.reset` /playerprotect reset
  -   Reset protection list
 
-
- -   `playerprotect.list`
- -   `/playerprotect list`
+ -   `playerprotect.list` /playerprotect list
  -   View protection list
 
 ***
