@@ -1,0 +1,57 @@
+name: PlayerProtect
+main: com.isitgeo.playerprotect.PlayerProtect
+version: 1.0
+description: Provides temporary protection from others players
+author: isitgeorge
+
+
+permissions:
+    playerprotect.*:
+        description: Access to all PlayerProtect commands
+        children:
+            playerprotect.add: true
+            playerprotect.remove: true
+            playerprotect.reset: true
+            playerprotect.list: true
+    
+    playerprotect.add:
+        description: Allows adding of players to protection list
+        default: op
+    
+    playerprotect.remove:
+        description: Allows removing of players from protection list
+        default: op
+        
+    playerprotect.reset:
+        description: Allows resetting of protection list
+        default: op
+        
+    playerprotect.list:
+        description: Allows viewing of protection list
+        default: op
+
+
+commands:
+    playerprotect:
+        description: Adds a player to protection
+        usage: /playerprotect <player>
+        permission: playerprotect.add
+        permission-message: You don't have permission!
+
+    playerprotect remove:
+        description: Removes a player from protection
+        usage: /playerprotect remove <player>
+        permission: playerprotect.remove
+        permission-message: You don't have permission!
+
+    playerprotect reset:
+        description: Reset protection list
+        usage: /playerprotect reset
+        permission: playerprotect.reset
+        permission-message: You don't have permission!
+
+   playerprotect list:
+        description: Lists players on protection list
+        usage: /playerprotect list
+        permission: playerprotect.list
+        permission-message: You don't have permission!
