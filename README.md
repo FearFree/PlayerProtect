@@ -30,4 +30,4 @@ Because PlayerProtect should only be applied as a temporary solution, the protec
 
 ***
 
-You can help PlayerProtect conquer the world on [GitHub](http://github.com/isitgeorge/randomgift)
+You can help PlayerProtect conquer the world on [GitHub](http://github.com/isitgeorge/PlayerProtect)
